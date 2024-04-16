@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD227B32BCE93E200BDA952 /* MikaelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD227B22BCE93E200BDA952 /* MikaelaApp.swift */; };
+		8DD227B52BCE93E200BDA952 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD227B42BCE93E200BDA952 /* ContentView.swift */; };
+		8DD227B72BCE93E400BDA952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD227B62BCE93E400BDA952 /* Assets.xcassets */; };
+		8DD227BA2BCE93E400BDA952 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD227B92BCE93E400BDA952 /* Preview Assets.xcassets */; };
+		8DD227C42BCE93E400BDA952 /* MikaelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD227C32BCE93E400BDA952 /* MikaelaTests.swift */; };
+		8DD227CE2BCE93E400BDA952 /* MikaelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD227CD2BCE93E400BDA952 /* MikaelaUITests.swift */; };
+		8DD227D02BCE93E400BDA952 /* MikaelaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD227CF2BCE93E400BDA952 /* MikaelaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DD227C02BCE93E400BDA952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD227A72BCE93E200BDA952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD227AE2BCE93E200BDA952;
+			remoteInfo = Mikaela;
+		};
+		8DD227CA2BCE93E400BDA952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD227A72BCE93E200BDA952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD227AE2BCE93E200BDA952;
+			remoteInfo = Mikaela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DD227AF2BCE93E200BDA952 /* Mikaela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mikaela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD227B22BCE93E200BDA952 /* MikaelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikaelaApp.swift; sourceTree = "<group>"; };
+		8DD227B42BCE93E200BDA952 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DD227B62BCE93E400BDA952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DD227B92BCE93E400BDA952 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DD227BF2BCE93E400BDA952 /* MikaelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikaelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD227C32BCE93E400BDA952 /* MikaelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikaelaTests.swift; sourceTree = "<group>"; };
+		8DD227C92BCE93E400BDA952 /* MikaelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikaelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD227CD2BCE93E400BDA952 /* MikaelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikaelaUITests.swift; sourceTree = "<group>"; };
+		8DD227CF2BCE93E400BDA952 /* MikaelaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikaelaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD227AC2BCE93E200BDA952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD227BC2BCE93E400BDA952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD227C62BCE93E400BDA952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DD227A62BCE93E200BDA952 = {
+			isa = PBXGroup;
+			children = (
+				8DD227B12BCE93E200BDA952 /* Mikaela */,
+				8DD227C22BCE93E400BDA952 /* MikaelaTests */,
+				8DD227CC2BCE93E400BDA952 /* MikaelaUITests */,
+				8DD227B02BCE93E200BDA952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD227B02BCE93E200BDA952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD227AF2BCE93E200BDA952 /* Mikaela.app */,
+				8DD227BF2BCE93E400BDA952 /* MikaelaTests.xctest */,
+				8DD227C92BCE93E400BDA952 /* MikaelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD227B12BCE93E200BDA952 /* Mikaela */ = {
+			isa = PBXGroup;
+			children = (
+				8DD227B22BCE93E200BDA952 /* MikaelaApp.swift */,
+				8DD227B42BCE93E200BDA952 /* ContentView.swift */,
+				8DD227B62BCE93E400BDA952 /* Assets.xcassets */,
+				8DD227B82BCE93E400BDA952 /* Preview Content */,
+			);
+			path = Mikaela;
+			sourceTree = "<group>";
+		};
+		8DD227B82BCE93E400BDA952 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DD227B92BCE93E400BDA952 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DD227C22BCE93E400BDA952 /* MikaelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DD227C32BCE93E400BDA952 /* MikaelaTests.swift */,
+			);
+			path = MikaelaTests;
+			sourceTree = "<group>";
+		};
+		8DD227CC2BCE93E400BDA952 /* MikaelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DD227CD2BCE93E400BDA952 /* MikaelaUITests.swift */,
+				8DD227CF2BCE93E400BDA952 /* MikaelaUITestsLaunchTests.swift */,
+			);
+			path = MikaelaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD227AE2BCE93E200BDA952 /* Mikaela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD227D32BCE93E400BDA952 /* Build configuration list for PBXNativeTarget "Mikaela" */;
+			buildPhases = (
+				8DD227AB2BCE93E200BDA952 /* Sources */,
+				8DD227AC2BCE93E200BDA952 /* Frameworks */,
+				8DD227AD2BCE93E200BDA952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mikaela;
+			productName = Mikaela;
+			productReference = 8DD227AF2BCE93E200BDA952 /* Mikaela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DD227BE2BCE93E400BDA952 /* MikaelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD227D62BCE93E400BDA952 /* Build configuration list for PBXNativeTarget "MikaelaTests" */;
+			buildPhases = (
+				8DD227BB2BCE93E400BDA952 /* Sources */,
+				8DD227BC2BCE93E400BDA952 /* Frameworks */,
+				8DD227BD2BCE93E400BDA952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD227C12BCE93E400BDA952 /* PBXTargetDependency */,
+			);
+			name = MikaelaTests;
+			productName = MikaelaTests;
+			productReference = 8DD227BF2BCE93E400BDA952 /* MikaelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DD227C82BCE93E400BDA952 /* MikaelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD227D92BCE93E400BDA952 /* Build configuration list for PBXNativeTarget "MikaelaUITests" */;
+			buildPhases = (
+				8DD227C52BCE93E400BDA952 /* Sources */,
+				8DD227C62BCE93E400BDA952 /* Frameworks */,
+				8DD227C72BCE93E400BDA952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD227CB2BCE93E400BDA952 /* PBXTargetDependency */,
+			);
+			name = MikaelaUITests;
+			productName = MikaelaUITests;
+			productReference = 8DD227C92BCE93E400BDA952 /* MikaelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD227A72BCE93E200BDA952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8DD227AE2BCE93E200BDA952 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					8DD227BE2BCE93E400BDA952 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8DD227AE2BCE93E200BDA952;
+					};
+					8DD227C82BCE93E400BDA952 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 8DD227AE2BCE93E200BDA952;
+					};
+				};
+			};
+			buildConfigurationList = 8DD227AA2BCE93E200BDA952 /* Build configuration list for PBXProject "Mikaela" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DD227A62BCE93E200BDA952;
+			productRefGroup = 8DD227B02BCE93E200BDA952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD227AE2BCE93E200BDA952 /* Mikaela */,
+				8DD227BE2BCE93E400BDA952 /* MikaelaTests */,
+				8DD227C82BCE93E400BDA952 /* MikaelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DD227AD2BCE93E200BDA952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD227BA2BCE93E400BDA952 /* Preview Assets.xcassets in Resources */,
+				8DD227B72BCE93E400BDA952 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD227BD2BCE93E400BDA952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD227C72BCE93E400BDA952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD227AB2BCE93E200BDA952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD227B52BCE93E200BDA952 /* ContentView.swift in Sources */,
+				8DD227B32BCE93E200BDA952 /* MikaelaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD227BB2BCE93E400BDA952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD227C42BCE93E400BDA952 /* MikaelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD227C52BCE93E400BDA952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD227CE2BCE93E400BDA952 /* MikaelaUITests.swift in Sources */,
+				8DD227D02BCE93E400BDA952 /* MikaelaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DD227C12BCE93E400BDA952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD227AE2BCE93E200BDA952 /* Mikaela */;
+			targetProxy = 8DD227C02BCE93E400BDA952 /* PBXContainerItemProxy */;
+		};
+		8DD227CB2BCE93E400BDA952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD227AE2BCE93E200BDA952 /* Mikaela */;
+			targetProxy = 8DD227CA2BCE93E400BDA952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DD227D12BCE93E400BDA952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DD227D22BCE93E400BDA952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD227D42BCE93E400BDA952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mikaela/Preview Content\"";
+				DEVELOPMENT_TEAM = D5YH685FXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BeFound.Mikaela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DD227D52BCE93E400BDA952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mikaela/Preview Content\"";
+				DEVELOPMENT_TEAM = D5YH685FXH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BeFound.Mikaela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DD227D72BCE93E400BDA952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5YH685FXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BeFound.MikaelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mikaela.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mikaela";
+			};
+			name = Debug;
+		};
+		8DD227D82BCE93E400BDA952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5YH685FXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BeFound.MikaelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mikaela.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mikaela";
+			};
+			name = Release;
+		};
+		8DD227DA2BCE93E400BDA952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5YH685FXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BeFound.MikaelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mikaela;
+			};
+			name = Debug;
+		};
+		8DD227DB2BCE93E400BDA952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5YH685FXH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BeFound.MikaelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mikaela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DD227AA2BCE93E200BDA952 /* Build configuration list for PBXProject "Mikaela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD227D12BCE93E400BDA952 /* Debug */,
+				8DD227D22BCE93E400BDA952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD227D32BCE93E400BDA952 /* Build configuration list for PBXNativeTarget "Mikaela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD227D42BCE93E400BDA952 /* Debug */,
+				8DD227D52BCE93E400BDA952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD227D62BCE93E400BDA952 /* Build configuration list for PBXNativeTarget "MikaelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD227D72BCE93E400BDA952 /* Debug */,
+				8DD227D82BCE93E400BDA952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD227D92BCE93E400BDA952 /* Build configuration list for PBXNativeTarget "MikaelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD227DA2BCE93E400BDA952 /* Debug */,
+				8DD227DB2BCE93E400BDA952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD227A72BCE93E200BDA952 /* Project object */;
+}
